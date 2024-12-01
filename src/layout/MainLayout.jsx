@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 export default function MainLayout() {
   return (
     <>
-      <header>
+      <header className="bg-red-400">
         <Navbar />
       </header>
       <main>
